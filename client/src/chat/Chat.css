@@ -1,0 +1,59 @@
+#msgBox {
+    display: flex;
+    font-size: 20px;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    min-height: 100px;
+    height: auto;
+    width: 50%;
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+#you,
+#friend {
+    /* display: flex; */
+    /* flex-direction: column; */
+    width: 100%;
+    height: auto;
+    /* position: absolute; */
+}
+
+#you .message-content {
+    /* padding: 2px; */
+    border-radius: 5px;
+    padding-right: 10px;
+    min-height: 40px;
+    height: auto;
+    word-wrap: break-word;
+    text-align: right;
+    background-color: #43a047;
+}
+
+#friend .message-content {
+    /* padding: 2px; */
+    height: 40px;
+    justify-content: flex-end;
+    background-color: cornflowerblue;
+}
+
+#msgInput {
+    font-size: 20px;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    height: 40px;
+    width: 39%;
+    margin-right: 10px;
+}
+
+#msgSubmit {
+    font-size: 22px;
+    padding: 4px 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    height: 40px;
+    width: 10%;
+}

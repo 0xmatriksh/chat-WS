@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=K2D&display=swap');
+
+* {
+  font-family: 'K2D', sans-serif;
+}
+
+#friendId {
+  margin-right: 10px;
+}
+
+#ownId,
+#friendId,
+#joinBtn {
+  border-radius: 5px;
+  border: 1px solid black;
+  font-size: 20px;
+  padding: 5px 5px;
+  border: 1px solid black;
+  height: 40px;
+}
